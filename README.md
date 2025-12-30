@@ -6,7 +6,7 @@ This project is part of my frontend portfolio and showcases state management, re
 
 ✨ Live Demo
 
-Deployment in progress
+🔗 Live Demo: https://todo-app-inky-five-33.vercel.app/
 
 ![desktop](image.png)
 ![mobile](image-1.png)
@@ -123,7 +123,7 @@ Andy Sebastian
 
 Frontend Developer
 
-GitHub: https://github.com/andx13
+GitHub: https://github.com/andydevsoftware
 
 Portfolio: In progress
 

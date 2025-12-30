@@ -1,23 +1,25 @@
-Todo App – Frontend Portfolio Project
+# 📋 Todo App – Frontend Portfolio Project
 
 A modern Todo application built with React, Next.js, and TypeScript, focused on clean component architecture, smooth user experience, and mobile-first design.
 
 This project is part of my frontend portfolio and showcases state management, reusable components, UI/UX decisions, and best practices in modern React development.
 
-✨ Live Demo
+---
 
-🔗 Live Demo: https://todo-app-inky-five-33.vercel.app/
+## 🔗 Live Demo: https://todo-app-inky-five-33.vercel.app/
 
 ![desktop](image.png)
 ![mobile](image-1.png)
 
-🚀 Features
+---
+
+## 🚀 Features
 
 - Create, edit, and delete tasks
 
 - Mark tasks as completed or pending
 
-Filter tasks by status:
+### Filter tasks by status:
 
 - All
 
@@ -25,7 +27,7 @@ Filter tasks by status:
 
 - Completed
 
-Task priorities:
+### Task priorities:
 
 - Low
 
@@ -33,7 +35,7 @@ Task priorities:
 
 - High
 
-Due date support with visual indicators:
+### Due date support with visual indicators:
 
 - Today
 
@@ -47,36 +49,38 @@ Due date support with visual indicators:
 
 - Fully responsive, mobile-first UI
 
-Note: The application UI is in Spanish, while the code and documentation are in English.
+### Note: The application UI is in Spanish, while the code and documentation are in English.
 
-🧠 Project Structure
+---
 
-The project follows a clean and scalable structure using the Next.js App Router:
+## 🧠 Project Structure
 
+```
 src/
 ├── app/
-│ ├── globals.css # Global styles and animations
-│ ├── layout.tsx # Root layout
-│ └── page.tsx # Main application page
+│ ├── globals.css                # Global styles and animations
+│ ├── layout.tsx                 # Root layout
+│ └── page.tsx                  # Main application page
 │
 ├── components/
-│ ├── TodoApp.tsx # Main application logic and state
-│ ├── Header.tsx # Header with counters and theme toggle
-│ ├── SearchBar.tsx # Real-time task search
-│ ├── TodoInput.tsx # Task creation form
-│ ├── TodoList.tsx # Task list rendering
-│ ├── TodoItem.tsx # Individual task component
-│ ├── BottomNav.tsx # Mobile-style bottom navigation
-│ ├── TodoFilters.tsx # Task filters (currently unused)
-│ └── TodoStats.tsx # Task statistics (currently unused)
+│ ├── TodoApp.tsx                  # Main application logic and state
+│ ├── Header.tsx                   # Header with counters and theme toggle
+│ ├── SearchBar.tsx                # Real-time task search
+│ ├── TodoInput.tsx                # Task creation form
+│ ├── TodoList.tsx                 # Task list rendering
+│ ├── TodoItem.tsx                 # Individual task component
+│ ├── BottomNav.tsx                # Mobile-style bottom navigation
+│ ├── TodoFilters.tsx              # Task filters (currently unused)
+│ └── TodoStats.tsx                # Task statistics (currently unused)
 │
-└── package.json # Dependencies and scripts
+└── package.json                 # Dependencies and scripts
+```
 
-Note: Some components are intentionally not used at the moment, as they were part of earlier iterations and are kept for future improvements.
+---
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
-React
+- React
 
 - Next.js (App Router)
 
@@ -88,7 +92,9 @@ React
 
 - CSS Animations
 
-🧩 Key Implementation Details
+---
+
+## 🧩 Key Implementation Details
 
 - State management using useState and useEffect
 
@@ -100,12 +106,27 @@ React
 
 - Clean, readable, and scalable component-based architecture
 
-🛠 Installation & Usage
+---
 
+## 🛠 Installation & Usage
+
+```bash
+# Install dependencies
 npm install
+
+# Run in development mode
 npm run dev
 
-🎯 Project Purpose
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+---
+
+## 🎯 Project Purpose
 
 This project was built to:
 
@@ -117,7 +138,9 @@ Create a real-world, polished UI similar to production apps
 
 Serve as a core project in my frontend developer portfolio
 
-👤 Author
+---
+
+## 👤 Author
 
 Andy Sebastian
 
@@ -127,7 +150,9 @@ GitHub: https://github.com/andydevsoftware
 
 Portfolio: In progress
 
-⭐ Future Improvements
+---
+
+## ⭐ Future Improvements
 
 - Drag & drop task reordering
 
